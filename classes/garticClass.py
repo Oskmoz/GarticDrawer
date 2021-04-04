@@ -1,5 +1,4 @@
-class Gartic:
-    basicColors = ([0, 0, 0]
+basicColors = ([0, 0, 0]
     , [102, 102, 102]
     , [25, 84, 198]
     , [255, 255, 255]
@@ -18,5 +17,7 @@ class Gartic:
     , [235, 55, 141]
     , [243, 178, 171])
 
-    def getColors(self):
-        return self.basicColors
+def getColors():
+    return basicColors
+
+    
